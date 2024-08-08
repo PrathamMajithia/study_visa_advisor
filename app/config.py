@@ -1,4 +1,4 @@
-OPENAI_API_KEY = "sk-proj-nZrrEwwDf7ZqofMzQsnYT3BlbkFJRRHi7QIifbDay6M2zzyT"
+OPENAI_API_KEY = "___enter__here___"
 
 # Chunking configuration
 CHUNK_SIZE = 300
