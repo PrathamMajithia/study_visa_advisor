@@ -11,4 +11,8 @@ def index():
 def chat():
     msg = request.form["msg"]
     prompt = msg
-    return get_response(prompt)
+    try:
+        response = get_response(prompt)
+    except Exception as e:
+        response = "I'm sorry, I can't respond at the moment. Please try again later."
+    return response
